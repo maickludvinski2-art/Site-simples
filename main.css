@@ -1,0 +1,26 @@
+
+/*configura a página inteira*/
+body{
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: rgb(19, 21, 35);
+    color:aliceblue;
+    Header{
+        h1{
+            background-color: aliceblue;
+            color:rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size:x-large;
+        }
+}
+main{
+    section{
+        text-align:center;
+        font-size:large;
+
+    }
+}
+}
