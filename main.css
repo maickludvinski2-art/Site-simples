@@ -26,21 +26,24 @@ main{
 }
 }
 @media (max-widht: 600px) {
+    .grade{
         grid-template-columns: 1fr;
     }
+}
+
 .grade{
     font-size: 21px;
-    gap: 45px;
-    
+    gap: 15px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 .cartão{
-    padding: 35px;
+    min-height: 35px;
     border-radius: 15px;
     background-color: rgb(40, 44, 52);
 }
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
+
 h3{
     background-color: rgb(40, 44, 52);
 }
