@@ -4,6 +4,7 @@ body{
     font-family: system-ui, -apple-system, sans-serif;
     background-color: rgb(19, 21, 35);
     color:aliceblue;
+    margin: 0;
     Header{
         h1{
             background-color: aliceblue;
@@ -19,8 +20,24 @@ body{
 main{
     section{
         text-align:center;
-        font-size:large;
+        font-size: 20px;
 
     }
 }
+}
+.grade{
+    font-size: 21px;
+
+    gap: 45px;
+.cartão{
+    padding: 35px;
+    border-radius: 15px;
+    background-color: rgb(40, 44, 52);
+}
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+h3{
+    background-color: rgb(40, 44, 52);
 }
