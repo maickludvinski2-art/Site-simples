@@ -26,8 +26,10 @@ main{
 }
 }
 .grade{
+    @media (max-widht: 600px) {
+        grid-template-columns: 1fr;
+    }
     font-size: 21px;
-
     gap: 45px;
 .cartão{
     padding: 35px;
