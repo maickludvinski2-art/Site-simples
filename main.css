@@ -25,12 +25,6 @@ main{
     }
 }
 }
-@media (max-widht: 550px ) {
-    .grade{
-        grid-template-columns: 1fr;
-    }
-}
-
 .grade{
     font-size: 21px;
     gap: 15px;
@@ -46,4 +40,9 @@ main{
 
 h3{
     background-color: rgb(40, 44, 52);
+}
+@media (max-widht: 600px ) {
+    .grade{
+        grid-template-columns: 1fr;
+    }
 }
