@@ -41,7 +41,7 @@ main{
 h3{
     background-color: rgb(40, 44, 52);
 }
-@media (max-widht: 600px ) {
+@media (max-widht: 600px) {
     .grade{
         grid-template-columns: 1fr;
     }
