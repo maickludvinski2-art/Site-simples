@@ -25,7 +25,7 @@ main{
     }
 }
 }
-@media (max-widht: 600px) {
+@media (max-widht: 550px ) {
     .grade{
         grid-template-columns: 1fr;
     }
